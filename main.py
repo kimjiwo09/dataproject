@@ -17,7 +17,7 @@ st.markdown("""
 @st.cache_data
 def load_data(file_path):
     # CSV 파일 읽기
-    df = pd.read_csv(file_path)
+    df = pd.read_ta_20260601093156.csv(file_path)
     
     # 컬럼명 공백 제거
     df.columns = df.columns.str.strip()
